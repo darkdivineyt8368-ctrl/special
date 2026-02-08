@@ -1,0 +1,12 @@
+/* HEART PARTICLES – CENTERED */
+.symbol.orbit {
+  position: fixed;              /* viewport-based */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: none !important;   /* KILL floatUp */
+  opacity: 0.8;
+  font-size: 20px;
+  transition: transform 3s ease-out;
+  pointer-events: none;
+}
